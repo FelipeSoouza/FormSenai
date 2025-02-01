@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+
+
+.formContainer {
+    background-color: #DADADA;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 70px;
+    border-radius: 10px;
+    border: 1px solid #ff5733;
+    padding: 20px;
+}
+
+input {
+    font-weight: 500;
+}
+
+legend {
+    font-weight: 600;
+}
+
+h1 {
+    color: #570619#DE3704;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(113, 118, 122);
+    border-radius: 5px;
+}
+
+div#timer {
+    font-size: larger;
+    color: #ffffff;
+    text-align: center;
+    width: 195px;
+    height: 64px;
+    background-color: #FF0000;
+    margin: auto;
+    border-radius: 11px;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 35px;
+
+}
+
+#btnenviar {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border-radius: 10px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: #FF0000;
+    color: #ffffff;
+    padding: 6px;
+    font-size: 20px;
+    border: none;
+    width: 167px;
+    height: 47px;
+    font-weight: 800;
+}
+
+
+#btnenviar:hover {
+    background-color: #cc0000; 
+    cursor: pointer; 
+    transform: scale(1.05); 
+    transition: all 0.3s ease; 
+}
+
+
+hr {
+    width: 90%;
+    color: black;
+    background-color: black;
+}
+
+#button_align {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-top: -20px;
+    height: 1px;
+    width: 90%;
+    margin-top: 100px;
+}
+
+#acerto {
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #42e069;
+    color: #ffffff;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    margin-top: -20px;
+    font-weight: 700;
+
+
+
+}
+
+img {
+    width: 190px;
+    margin: 15px;
+
+}
+
+fieldset {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}

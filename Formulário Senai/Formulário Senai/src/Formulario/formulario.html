@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Formulario/public/styles/formulario.css">
+    <link rel="stylesheet" href="../../src/public/styles/styleForm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Prova de 30 minutos</title>
+    <style>
+     .senai-header {
+            font-family: 'Arial', sans-serif;
+            font-size: 2.5rem;
+            color: #ffffff; 
+            text-align: center;
+            background-color: #d52b1e;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formDiv">
+        <header>
+            <h1 class="senai-header">Prova de 30 minutos (Teste de Conhecimentos Gerais)</h1>
+            <img src="../public/img/senai-logo.png" alt="Logo SENAI">
+        </header>
+
+        <main>
+            <div id="timer">30:00</div>
+            <form id="quizForm" class="quizForm">
+                <fieldset>
+                    <legend>1. Qual é o maior continente do mundo?</legend>
+                    <label><input type="radio" name="q1" value="Ásia"> Ásia</label>
+                    <label><input type="radio" name="q1" value="América do Norte"> América do Norte</label>
+                    <label><input type="radio" name="q1" value="África"> África</label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>2. Quem pintou a Mona Lisa?</legend>
+                    <label><input type="radio" name="q2" value="Vincent van Gogh"> Vincent van Gogh</label>
+                    <label><input type="radio" name="q2" value="Pablo Picasso"> Pablo Picasso</label>
+                    <label><input type="radio" name="q2" value="Leonardo da Vinci"> Leonardo da Vinci</label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>3. Qual é o nome da teoria que explica a origem do universo?</legend>
+                    <label><input type="radio" name="q3" value="Teoria da Evolução"> Teoria da Evolução</label>
+                    <label><input type="radio" name="q3" value="Teoria do Big Bang"> Teoria do Big Bang</label>
+                    <label><input type="radio" name="q3" value="Teoria da Relatividade"> Teoria da Relatividade</label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>4. Qual é o maior animal terrestre?</legend>
+                    <label><input type="radio" name="q4" value="Elefante africano"> Elefante africano</label>
+                    <label><input type="radio" name="q4" value="Girafa"> Girafa</label>
+                    <label><input type="radio" name="q4" value="Cavalo"> Cavalo</label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>5. Qual é o país com a maior população do mundo?</legend>
+                    <label><input type="radio" name="q5" value="Índia"> Índia</label>
+                    <label><input type="radio" name="q5" value="China"> China</label>
+                    <label><input type="radio" name="q5" value="Estados Unidos"> Estados Unidos</label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>6. Qual é o órgão responsável pela produção de insulina no corpo humano?</legend>
+                    <label><input type="radio" name="q6" value="Fígado"> Fígado</label>
+                    <label><input type="radio" name="q6" value="Pâncreas"> Pâncreas</label>
+                    <label><input type="radio" name="q6" value="Rins"> Rins</label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>7. Qual é o nome do satélite natural da Terra?</legend>
+                    <label><input type="radio" name="q7" value="Lua"> Lua</label>
+                    <label><input type="radio" name="q7" value="Sol"> Sol</label>
+                    <label><input type="radio" name="q7" value="Marte"> Marte</label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>8. Qual é a capital da França?</legend>
+                    <label><input type="radio" name="q8" value="Paris"> Paris</label>
+                    <label><input type="radio" name="q8" value="Londres"> Londres</label>
+                    <label><input type="radio" name="q8" value="Berlim"> Berlim</label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>9. Quem escreveu "Dom Quixote"?</legend>
+                    <label><input type="radio" name="q9" value="William Shakespeare"> William Shakespeare</label>
+                    <label><input type="radio" name="q9" value="Miguel de Cervantes"> Miguel de Cervantes</label>
+                    <label><input type="radio" name="q9" value="J.K. Rowling"> J.K. Rowling</label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>10. Qual é o elemento químico representado pelo símbolo "O"?</legend>
+                    <label><input type="radio" name="q10" value="Ouro"> Ouro</label>
+                    <label><input type="radio" name="q10" value="Oxigênio"> Oxigênio</label>
+                    <label><input type="radio" name="q10" value="Osmium"> Osmium</label>
+                </fieldset>
+
+                <div id="button_align">
+                    <div id="acerto">ACERTOS: 0</div>
+                    <button type="button" id="btnenviar">ENVIAR</button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

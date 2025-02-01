@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+:root {
+    --preto: #2c2c2c;
+    --vermelho: #ff0000;
+}
+
+a {
+    margin: 3px;
+    color: white;
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+a:hoover {
+    color: rgb(139, 139, 139);
+
+}
+
+body {
+    background-image: url(./src/public/img/background_pb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.headerLogo {
+    margin: 40px 20px 20px 40px;
+}
+
+.headerLogo img {
+    width: 220px;
+}
+
+.tituloForm {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.form {
+    color: white;
+    background-color: var(--preto);
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    margin: 40px auto;
+    border: 1px solid var(--vermelho);
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 12%;
+}
+
+.form a {
+    margin-bottom: 16px;
+    text-decoration: underline;
+}
+
+.form h1 {
+    font-size: 65px;
+}
+
+.form p {
+    font-size: 16px;
+    margin-top: -10px;
+    font-weight: 200;
+}
+
+.botaoEntrar {
+    color: #fff;
+    border-radius: 16px;
+    padding: 4px;
+    width: 250px;
+    height: 40px;
+    border-style: none;
+    font-size: 16px;
+    margin-top: 16px;
+    background: linear-gradient(135deg, #ff3737, #a10000 80%);
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    /* Gradiente inicial */
+    background-size: 200% 200%;
+    /* Permite o movimento do gradiente */
+    transition: background-position 0.4s ease;
+}
+
+
+.botaoEntrar:hover {
+    background-position: -100% 0;
+}
+
+
+
+.inputItem {
+    border-radius: 5px;
+    background-color: #DADADA;
+    width: 120%;
+    padding: 12px;
+    margin: 32px 0;
+    outline: none;
+    border-style: none;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+#particles-js canvas {
+    width: 100% !important;
+}
+
+.custom-alert {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    z-index: 9999;
+    text-align: center;
+}
+
+.custom-alert button {
+    padding: 10px 20px;
+    background-color: #fc2c2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-alert button:hover {
+    background-color: #a10000;
+}
